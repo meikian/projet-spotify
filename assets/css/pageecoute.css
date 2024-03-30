@@ -1,0 +1,253 @@
+body{
+    margin-left: 20%;
+    display: flex;
+}
+
+.main2{
+    background-color: rgb(36, 36, 36) ;
+    width: 375px;
+    margin-left: 10%;
+    height: 100vh;
+    color: azure;
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 400px 1fr 75px; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "header"
+    "content"
+    "footer"; 
+}
+
+.header { grid-area: header;
+}
+.content { grid-area: content; 
+}
+.footer { grid-area: footer; 
+    background-color: rgb(70, 70, 70);
+    border-radius: 20px 20px 0 0;
+    display: flex;
+}
+.navligne2{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    margin-top: 3%;
+    margin-left: 3%;
+}
+::-webkit-scrollbar {
+display: none;
+}
+
+
+.li3{
+    margin-left: 55px;
+    margin-top: 5%;
+    font-size: 120%;
+}
+.back{
+    margin: 3%;
+    position: absolute;
+}
+
+
+
+.titre{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.playingtitl{
+    margin-top: 20px;
+    margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+}
+.titleinfo{
+    bottom: 0;
+    max-height: 40%;
+}
+.image{
+    position:absolute;
+    width: 100%;
+}
+.control__wrapper{
+    margin-top: 10%;
+    margin-left: 9%;
+    display: flex;
+        position: relative;
+    flex-direction: row;
+    
+}
+.control__wrapper--main-element{
+    margin-left: 15%;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.progress__wrapper{
+    width: 88%;
+    display: flex;
+    margin: 6%;
+}
+.progress__time{
+    margin: 15px;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+}
+.duration_time{
+    margin-left: 425%;
+    display: flex;
+}
+.progress__bg {
+    height: 3px;
+    width: 100%;
+    background: white;
+}
+.progress__wrapper{
+    margin-top: 15%;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    
+    background-color:rgb(36, 36, 36);
+    border: none;
+}
+.thebigplaybtn{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.marginer{
+    margin-top: 11px;
+}
+.nomdutitre{
+    overflow: auto;
+    width: 140px;
+    margin-left: 5%;
+    margin-right: 5%;   
+    color: #969393;
+    font-size: 20px;
+}
+.nomdartiste{
+    overflow: auto;
+    margin: 3%;
+    margin-left: 27%;
+    width: 40%;
+    font-size: 15px;
+    color: rgb(70, 70, 70);
+}
+@media(min-width: 640px){
+ 
+ .main2{
+    width: 100%;
+    margin-left: 0%;
+ }
+ body{
+    display: block;
+    margin-left: 0%;
+ }
+ 
+.control__wrapper{
+    margin-left: 31%;
+    margin-top: 2%;
+}
+.li3{
+    margin-left: 21vw;
+    margin-top: 1%;
+    font-size: 120%;
+}
+.back{
+    margin: 3%;
+    position: absolute;
+}
+
+
+
+.titre{
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.playingtitl{
+    margin-left: 36%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: row;
+}
+.titleinfo{
+    bottom: 0;
+    max-height: 10%;
+}
+.image{
+    position:absolute;
+    width: 300%;
+    margin-left: 34vw;
+}
+.control__wrapper--main-element{
+    margin-left: 15%;
+    margin-right: 22%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.progress__wrapper{
+    width: 88%;
+    display: flex;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.progress__time{
+    margin: 15px;
+}
+.duration_time{
+    margin-left: 82vw;
+    display: flex;
+}
+.progress__bg {
+    height: 3px;
+    width: 100%;
+    background: white;
+}
+.progress__wrapper{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+}
+button{
+    
+    background-color:rgb(36, 36, 36);
+    border: none;
+}
+.thebigplaybtn{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.marginer{
+    margin-top: 11px;
+}
+.nomdutitre{
+    width: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 20px;
+}
+.nomdartiste{
+    overflow: auto;
+    margin: 1%;
+    margin-left: 40%;
+    width: 40%;
+    font-size: 15px;
+    color: rgb(70, 70, 70);
+}
+nav{
+    width: 100vw;
+}
+.navligne2{
+    margin-top: 1%;
+}
+}
+ 
